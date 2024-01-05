@@ -129,6 +129,8 @@ env.bak/
 venv.bak/
 sec.py
 static_files
+static/
+media/
 
 # Spyder project settings
 .spyderproject
