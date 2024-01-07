@@ -131,6 +131,7 @@ sec.py
 static_files
 static/
 media/
+project/local_settings.py
 
 # Spyder project settings
 .spyderproject
