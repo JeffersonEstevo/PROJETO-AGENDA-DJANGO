@@ -39,6 +39,7 @@ class ContactForm(forms.ModelForm):
         model = models.Contact
         fields = (
             'first_name', 'last_name', 'phone',
+            'email', 'description', 'category',
         )
         # outra maneira de atualizar um cmapo já existente no form
         # widgets = {
