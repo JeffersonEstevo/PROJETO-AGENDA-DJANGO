@@ -4,15 +4,12 @@ from . import models
 
 class ContactForm(forms.ModelForm):
     # mudar campos do form declarado em models.py
-    first_name = forms.CharField(
-        widget=forms.TextInput(
+    picture = forms.ImageField(
+        widget=forms.FileInput(
             attrs={
-                'class': 'classe-a classe-b',
-                'placeholder': 'Escreva aqui',       
+                'accept': 'image/*',       
             }
-        ),
-        label='Primeiro Nome',
-        help_text='Texto de ajuda para seu usuário',
+        )
     )    
 
     # Podemos criar novos campos no form
@@ -40,6 +37,7 @@ class ContactForm(forms.ModelForm):
         fields = (
             'first_name', 'last_name', 'phone',
             'email', 'description', 'category',
+            'picture',
         )
         # outra maneira de atualizar um cmapo já existente no form
         # widgets = {
