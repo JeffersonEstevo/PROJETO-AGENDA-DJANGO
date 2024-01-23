@@ -12,7 +12,8 @@ class ContactForm(forms.ModelForm):
             attrs={
                 'accept': 'image/*',       
             }
-        )
+        ),
+        required=False
     )    
 
     # Podemos criar novos campos no form
