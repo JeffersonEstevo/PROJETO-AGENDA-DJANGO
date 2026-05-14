@@ -46,8 +46,8 @@
 
 1. Clone o repositorio:
 
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+`git clone https://github.com/JeffersonEstevo/PROJETO-AGENDA-DJANGO/.git`    
+`cd SEU_REPOSITORIO`
 
 2. Crie um ambiente virtual:
 
